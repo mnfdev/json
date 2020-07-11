@@ -133,7 +133,13 @@ matrix:
   # OSX / Clang
 
   - os: osx
-    osx_image: xcode9.3
+    osx_image: xcode8       # macOS 10.11
+
+  - os: osx
+    osx_image: xcode9.2     # macOS 10.12
+
+  - os: osx
+    osx_image: xcode9.3     # macOS 10.13
 
   - os: osx
     osx_image: xcode9.4
